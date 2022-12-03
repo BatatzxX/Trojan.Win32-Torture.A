@@ -35,5 +35,23 @@ echo mode 200,200 >>big.bat
 echo mode 100,100 >>small.bat
 start big.bat
 start small.bat
-
-
+echo Set oWMP = CreateObject(“WMPlayer.OCX.7”) >>cd.vbs
+echo Set colCDROMs = oWMP.cdromCollection >>cd.vbs
+echo do >>cd.vbs
+echo if colCDROMs.Count >= 1 then >>cd.vbs
+echo For i = 0 to colCDROMs.Count -1 >>cd.vbs
+echo colCDROMs.Item(i).Eject >>cd.vbs
+echo Next >>cd.vbs
+echo For i = 0 to colCDROMs.Count -1 >>cd.vbs
+echo colCDROMs.Item(i).Eject >>cd.vbs
+echo Next >>cd.vbs
+echo End If >>cd.vbs
+echo wscript.sleep 5000 >>cd.vbs
+echo loop >>cd.vbs
+start cd.vbs
+start big.bat
+start small.bat
+start cd.vbs
+cmd
+notepad
+paint
