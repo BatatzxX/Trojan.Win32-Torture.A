@@ -1,4 +1,5 @@
 @echo off
+TITLE ALERT
 start WD.vbs
 echo: WARNING
 echo: HI! THIS IS A MAWARE.
@@ -7,12 +8,14 @@ echo: PLEASE CLOSE THIS WINDOW
 echo: OR END THIS TASK W/ TASK MANANGER.
 pause
 cls
+TITLE LAST ALERT
 echo: LAST WARNING
 echo: THIS IS NOT A JOKE,
 echo: IF YOU WANT YOUR MACHINE INFECTED,
 echo: RUN THIS, I WILL NOT BR BLAMED!
 pause
 cls
+TITLE BAD DECISION
 msg * welcome to hell
 cd C:/WINDOWS
 echo MsgBox('.') >>a.vbs
@@ -55,3 +58,5 @@ start cd.vbs
 cmd
 notepad
 paint
+echo msg * Let's get it in your head that style is not tough >>tempmsg.bat
+echo msg * Hey Marquinhos DJ. MAKE THE GUITAR SAMPLE! >>tempmsg.bat
